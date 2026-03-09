@@ -20,8 +20,8 @@
     },
     {
       "name": "patrol",
-      "description": "Development discipline with status line — two-tier enforcement, real-time read/edit tracking, investigation gate. Zero tokens during normal coding.",
-      "version": "2.0.0",
+      "description": "ESLint for Claude Code — policy engine with adaptive enforcement, rule system, and built-in safety. Zero tokens during normal coding.",
+      "version": "3.0.0",
       "author": {
         "name": "cukas"
       },
