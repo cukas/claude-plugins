@@ -1,0 +1,9 @@
+[submodule "plugins/remembrall"]
+	path = plugins/remembrall
+	url = git@github.com:cukas/remembrall.git
+[submodule "plugins/patrol"]
+	path = plugins/patrol
+	url = git@github.com:cukas/patrol.git
+[submodule "plugins/workflow-skills"]
+	path = plugins/workflow-skills
+	url = git@github.com:cukas/claude-workflow-skills.git
