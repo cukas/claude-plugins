@@ -17,7 +17,7 @@ Context runs out, work gets lost. Remembrall monitors your context window, auto-
 ```
 
 ```bash
-claude plugins install remembrall@cukas
+claude plugin install remembrall@cukas
 ```
 
 [View repo](https://github.com/cukas/remembrall)
@@ -40,7 +40,7 @@ Bug-fix detected                  → investigation gate active
 ```
 
 ```bash
-claude plugins install patrol@cukas
+claude plugin install patrol@cukas
 ```
 
 [View repo](https://github.com/cukas/patrol)
@@ -65,7 +65,7 @@ Three skills that chain together for disciplined development:
 ```
 
 ```bash
-claude plugins install workflow-skills@cukas
+claude plugin install workflow-skills@cukas
 ```
 
 [View repo](https://github.com/cukas/claude-workflow-skills)
@@ -76,12 +76,18 @@ claude plugins install workflow-skills@cukas
 
 ```bash
 # Add the marketplace
-claude plugins marketplace add cukas --from github:cukas/claude-plugins
+claude plugin marketplace add cukas/claude-plugins
 
 # Install what you need
-claude plugins install remembrall@cukas
-claude plugins install patrol@cukas
-claude plugins install workflow-skills@cukas
+claude plugin install remembrall@cukas
+claude plugin install patrol@cukas
+claude plugin install workflow-skills@cukas
+```
+
+Or from inside Claude Code:
+```
+/plugin marketplace add cukas/claude-plugins
+/plugin install remembrall@cukas
 ```
 
 ## Philosophy

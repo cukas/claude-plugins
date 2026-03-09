@@ -1,0 +1,53 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cukas",
+  "description": "Battle-tested Claude Code plugins for development discipline, context persistence, and structured workflows",
+  "owner": {
+    "name": "cukas",
+    "url": "https://github.com/cukas"
+  },
+  "plugins": [
+    {
+      "name": "remembrall",
+      "description": "Never lose context again — auto-saves your work when Claude Code's context window runs low. Handoff/replay for seamless session continuity.",
+      "version": "2.5.0",
+      "author": {
+        "name": "cukas"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cukas/remembrall.git"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/cukas/remembrall"
+    },
+    {
+      "name": "patrol",
+      "description": "Development discipline enforcement — stop band-aiding, investigate first, verify before done. Zero tokens during normal coding, escalating warnings when Claude skips investigation.",
+      "version": "1.0.0",
+      "author": {
+        "name": "cukas"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cukas/patrol.git"
+      },
+      "category": "development",
+      "homepage": "https://github.com/cukas/patrol"
+    },
+    {
+      "name": "workflow-skills",
+      "description": "Battle-tested dev workflow: /plan-guarded, /bugfix, /review-checklist with automatic chaining. Plan → implement → review, every time.",
+      "version": "1.0.0",
+      "author": {
+        "name": "cukas"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cukas/claude-workflow-skills.git"
+      },
+      "category": "development",
+      "homepage": "https://github.com/cukas/claude-workflow-skills"
+    }
+  ]
+}
