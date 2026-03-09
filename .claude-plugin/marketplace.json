@@ -9,8 +9,8 @@
   "plugins": [
     {
       "name": "remembrall",
-      "description": "Never lose context again — auto-saves your work when Claude Code's context window runs low. Handoff/replay for seamless session continuity.",
-      "version": "2.5.0",
+      "description": "Never lose work to context limits — auto-handoff, smart replay, git patches, team sharing",
+      "version": "2.6.1",
       "author": {
         "name": "cukas"
       },
