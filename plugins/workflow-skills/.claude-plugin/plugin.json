@@ -1,0 +1,14 @@
+{
+  "name": "workflow-skills",
+  "description": "Battle-tested development workflow skills: /plan-guarded, /bugfix, /review-checklist with automatic chaining.",
+  "version": "1.0.0",
+  "author": {
+    "name": "cukas",
+    "url": "https://github.com/cukas"
+  },
+  "repository": "https://github.com/cukas/claude-workflow-skills",
+  "source": {
+    "type": "github",
+    "repo": "cukas/claude-workflow-skills"
+  }
+}
