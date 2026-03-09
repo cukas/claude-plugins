@@ -20,8 +20,8 @@
     },
     {
       "name": "patrol",
-      "description": "Development discipline enforcement — stop band-aiding, investigate first, verify before done. Zero tokens during normal coding, escalating warnings when Claude skips investigation.",
-      "version": "1.0.0",
+      "description": "Development discipline with status line — two-tier enforcement, real-time read/edit tracking, investigation gate. Zero tokens during normal coding.",
+      "version": "2.0.0",
       "author": {
         "name": "cukas"
       },
