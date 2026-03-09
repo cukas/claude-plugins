@@ -2,6 +2,20 @@
 
 A curated collection of plugins built from real-world development — 451 sessions, 651 hours, and a lot of lessons learned.
 
+## Install
+
+```bash
+claude plugin marketplace add cukas/claude-plugins
+```
+
+Then browse and install from `/plugin` > Discover, or:
+
+```bash
+claude plugin install remembrall@cukas
+claude plugin install patrol@cukas
+claude plugin install workflow-skills@cukas
+```
+
 ---
 
 ## Plugins
