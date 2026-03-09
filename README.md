@@ -1,6 +1,6 @@
 # cukas — Claude Code Plugins
 
-A curated collection of plugins built from real-world development — 451 sessions, 651 hours, and a lot of lessons learned.
+A curated collection of plugins built from real-world development — 451 sessions, 651 hours, and a lot of lessons learned. Zero external dependencies — just Claude Code's native hooks and skills.
 
 ## Install
 
@@ -63,19 +63,19 @@ claude plugin install patrol@cukas
 
 ### Workflow Skills
 
-> *Plan it. Guard it. Review it. Every time.*
+> *Trace it. Guard it. Gate it. Every time.*
 
 Three skills that chain together for disciplined development:
 
 | Skill | What it does |
 |-------|-------------|
-| `/plan-guarded` | Plan first, get approval, implement one file at a time with type-check and test after each change |
-| `/bugfix` | Write a failing test, fix until green, no hand-holding — surfaces only when done |
-| `/review-checklist` | Trace affected paths, check for null/async/stale-data bugs, verify builds and tests |
+| `/build-guard` | Plan in plan mode, implement with subagent dispatch, type-check after every file, test every 3 files |
+| `/trace-fix` | Trace root cause before touching code, TDD loop with escape hatch, fully autonomous |
+| `/review-gate` | Structured pass/fail review — trace paths, scan for bugs, verify build/types/tests |
 
 ```
-/plan-guarded  →  implement  →  /review-checklist (automatic)
-/bugfix        →  test loop  →  /review-checklist (automatic)
+/build-guard  →  plan mode  →  subagent dispatch  →  checkpoints  →  /review-gate (automatic)
+/trace-fix    →  trace root cause  →  TDD loop                    →  /review-gate (automatic)
 ```
 
 ```bash
