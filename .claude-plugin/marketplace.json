@@ -31,8 +31,8 @@
     },
     {
       "name": "workflow-skills",
-      "description": "Battle-tested dev workflow: /plan-guarded, /bugfix, /review-checklist with automatic chaining. Plan, implement, review, every time.",
-      "version": "1.0.0",
+      "description": "Guarded development workflows: /trace-fix (investigation-first bug fixing), /build-guard (orchestrated multi-file implementation), /review-gate (structured post-implementation review)",
+      "version": "2.0.0",
       "author": {
         "name": "cukas"
       },
