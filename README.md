@@ -8,6 +8,7 @@ Personal plugin marketplace for Claude Code.
 |--------|-------------|------|
 | **remembrall** | Never lose context again — auto-saves your work when Claude Code's context window runs low | [cukas/remembrall](https://github.com/cukas/remembrall) |
 | **workflow-skills** | Battle-tested dev workflow: `/plan-guarded`, `/bugfix`, `/review-checklist` with automatic chaining | [cukas/claude-workflow-skills](https://github.com/cukas/claude-workflow-skills) |
+| **patrol** | Development discipline enforcement — stop band-aiding, investigate first, verify before done | [cukas/patrol](https://github.com/cukas/patrol) |
 
 ## Installation
 
@@ -17,4 +18,5 @@ Add this marketplace to Claude Code, then install plugins from it:
 claude plugins marketplace add cukas --from github:cukas/claude-plugins
 claude plugins install remembrall@cukas
 claude plugins install workflow-skills@cukas
+claude plugins install patrol@cukas
 ```
