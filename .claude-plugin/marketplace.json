@@ -14,10 +14,7 @@
       "author": {
         "name": "cukas"
       },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cukas/remembrall.git"
-      },
+      "source": "./plugins/remembrall",
       "category": "productivity",
       "homepage": "https://github.com/cukas/remembrall"
     },
@@ -28,24 +25,18 @@
       "author": {
         "name": "cukas"
       },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cukas/patrol.git"
-      },
+      "source": "./plugins/patrol",
       "category": "development",
       "homepage": "https://github.com/cukas/patrol"
     },
     {
       "name": "workflow-skills",
-      "description": "Battle-tested dev workflow: /plan-guarded, /bugfix, /review-checklist with automatic chaining. Plan → implement → review, every time.",
+      "description": "Battle-tested dev workflow: /plan-guarded, /bugfix, /review-checklist with automatic chaining. Plan, implement, review, every time.",
       "version": "1.0.0",
       "author": {
         "name": "cukas"
       },
-      "source": {
-        "source": "url",
-        "url": "https://github.com/cukas/claude-workflow-skills.git"
-      },
+      "source": "./plugins/workflow-skills",
       "category": "development",
       "homepage": "https://github.com/cukas/claude-workflow-skills"
     }
