@@ -20,7 +20,7 @@
     },
     {
       "name": "patrol",
-      "description": "ESLint for Claude Code — policy engine with adaptive enforcement, rule system, and built-in safety. Zero tokens during normal coding.",
+      "description": "ESLint for Claude Code — adaptive rule engine, investigation gate, workflow skills (/build-guard, /trace-fix, /review-gate, /diagnose). Zero tokens during normal coding.",
       "version": "3.0.0",
       "author": {
         "name": "cukas"
@@ -28,17 +28,6 @@
       "source": "./plugins/patrol",
       "category": "development",
       "homepage": "https://github.com/cukas/patrol"
-    },
-    {
-      "name": "workflow-skills",
-      "description": "Guarded development workflows: /trace-fix (investigation-first bug fixing), /build-guard (orchestrated multi-file implementation), /review-gate (structured post-implementation review)",
-      "version": "2.0.0",
-      "author": {
-        "name": "cukas"
-      },
-      "source": "./plugins/workflow-skills",
-      "category": "development",
-      "homepage": "https://github.com/cukas/claude-workflow-skills"
     }
   ]
 }

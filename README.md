@@ -1,6 +1,6 @@
 # cukas — Claude Code Plugins
 
-A curated collection of plugins built from real-world development — 451 sessions, 651 hours, and a lot of lessons learned. Zero external dependencies — just Claude Code's native hooks and skills.
+Two battle-tested plugins built from real-world development — 451 sessions, 651 hours, and a lot of lessons learned. Zero external dependencies — just Claude Code's native hooks and skills.
 
 ## Install
 
@@ -13,7 +13,6 @@ Then browse and install from `/plugin` > Discover, or:
 ```bash
 claude plugin install remembrall@cukas
 claude plugin install patrol@cukas
-claude plugin install workflow-skills@cukas
 ```
 
 ---
@@ -42,7 +41,7 @@ claude plugin install remembrall@cukas
 
 > *"Investigate, you must. Band-aid, you must not."*
 
-Stops Claude from jumping to fixes before understanding the problem. Auto-detects bug-fix sessions, tracks which files Claude reads vs edits, and escalates if it starts patching without investigating.
+ESLint for Claude Code — adaptive rule engine with investigation gate, band-aid detection, and built-in workflow skills. Zero tokens during normal coding.
 
 ```
 Normal coding                     → silent (zero tokens)
@@ -53,36 +52,20 @@ Bug-fix detected                  → investigation gate active
   Files changed, no build/test    → 🔧 reminder
 ```
 
-```bash
-claude plugin install patrol@cukas
-```
-
-[View repo](https://github.com/cukas/patrol)
-
----
-
-### Workflow Skills
-
-> *Trace it. Guard it. Gate it. Every time.*
-
-Three skills that chain together for disciplined development:
+**Included skills** (previously standalone `workflow-skills` plugin):
 
 | Skill | What it does |
 |-------|-------------|
 | `/build-guard` | Plan in plan mode, implement with subagent dispatch, type-check after every file, test every 3 files |
 | `/trace-fix` | Trace root cause before touching code, TDD loop with escape hatch, fully autonomous |
 | `/review-gate` | Structured pass/fail review — trace paths, scan for bugs, verify build/types/tests |
-
-```
-/build-guard  →  plan mode  →  subagent dispatch  →  checkpoints  →  /review-gate (automatic)
-/trace-fix    →  trace root cause  →  TDD loop                    →  /review-gate (automatic)
-```
+| `/diagnose` | Structured root-cause investigation before any code changes |
 
 ```bash
-claude plugin install workflow-skills@cukas
+claude plugin install patrol@cukas
 ```
 
-[View repo](https://github.com/cukas/claude-workflow-skills)
+[View repo](https://github.com/cukas/patrol)
 
 ---
 
@@ -95,7 +78,6 @@ claude plugin marketplace add cukas/claude-plugins
 # Install what you need
 claude plugin install remembrall@cukas
 claude plugin install patrol@cukas
-claude plugin install workflow-skills@cukas
 ```
 
 Or from inside Claude Code:
@@ -110,6 +92,6 @@ These plugins exist because Claude is powerful but undisciplined. It jumps to fi
 
 - **Investigate before fixing** (Patrol)
 - **Never lose context** (Remembrall)
-- **Verify before declaring done** (Workflow Skills)
+- **Verify before declaring done** (Patrol — /review-gate)
 
 Built by [@cukas](https://github.com/cukas). MIT licensed.
