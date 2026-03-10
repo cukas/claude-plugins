@@ -31,7 +31,7 @@
     },
     {
       "name": "claudes-ai-buddies",
-      "description": "Use peer AI CLIs (Codex, Gemini) from Claude Code — brainstorm, delegate, code reviews. Direct CLI spawn, no MCP.",
+      "description": "Multi-AI confidence bids — pitch tasks to Claude, Codex & Gemini, compare confidence %, pick who builds it. Plus peer code reviews and delegation.",
       "version": "1.0.0",
       "author": {
         "name": "cukas"
@@ -39,7 +39,15 @@
       "source": "./plugins/claudes-ai-buddies",
       "category": "development",
       "homepage": "https://github.com/cukas/claudes-ai-buddies",
-      "tags": ["codex", "gemini", "openai", "peer-ai", "code-review", "brainstorm", "claude-code-plugin"]
+      "tags": [
+        "codex",
+        "gemini",
+        "openai",
+        "peer-ai",
+        "code-review",
+        "brainstorm",
+        "claude-code-plugin"
+      ]
     }
   ]
 }
