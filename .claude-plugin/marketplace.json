@@ -28,6 +28,18 @@
       "source": "./plugins/patrol",
       "category": "development",
       "homepage": "https://github.com/cukas/patrol"
+    },
+    {
+      "name": "claudes-ai-buddies",
+      "description": "Use peer AI CLIs (Codex, Gemini) from Claude Code — brainstorm, delegate, code reviews. Direct CLI spawn, no MCP.",
+      "version": "1.0.0",
+      "author": {
+        "name": "cukas"
+      },
+      "source": "./plugins/claudes-ai-buddies",
+      "category": "development",
+      "homepage": "https://github.com/cukas/claudes-ai-buddies",
+      "tags": ["codex", "gemini", "openai", "peer-ai", "code-review", "brainstorm", "claude-code-plugin"]
     }
   ]
 }

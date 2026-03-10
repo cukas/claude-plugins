@@ -4,6 +4,6 @@
 [submodule "plugins/patrol"]
 	path = plugins/patrol
 	url = git@github.com:cukas/patrol.git
-[submodule "plugins/claudes-codex-buddy"]
-	path = plugins/claudes-codex-buddy
-	url = git@github.com:cukas/claudes-codex-buddy.git
+[submodule "plugins/claudes-ai-buddies"]
+	path = plugins/claudes-ai-buddies
+	url = git@github.com:cukas/claudes-ai-buddies.git
