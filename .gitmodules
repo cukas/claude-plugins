@@ -1,9 +1,15 @@
 [submodule "plugins/remembrall"]
 	path = plugins/remembrall
 	url = git@github.com:cukas/remembrall.git
-[submodule "plugins/patrol"]
-	path = plugins/patrol
-	url = git@github.com:cukas/patrol.git
 [submodule "plugins/claudes-ai-buddies"]
 	path = plugins/claudes-ai-buddies
 	url = git@github.com:cukas/claudes-ai-buddies.git
+[submodule "plugins/evil-twin"]
+	path = plugins/evil-twin
+	url = git@github.com:cukas/evil-twin.git
+[submodule "plugins/hello-claude"]
+	path = plugins/hello-claude
+	url = git@github.com:cukas/hello-claude.git
+[submodule "plugins/patrol"]
+	path = plugins/patrol
+	url = git@github.com:cukas/patrol.git
