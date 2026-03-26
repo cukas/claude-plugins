@@ -11,43 +11,46 @@
       "name": "remembrall",
       "description": "Never lose work to context limits — auto-handoff, smart replay, git patches, team sharing",
       "version": "3.0.0",
-      "author": {
-        "name": "cukas"
-      },
+      "author": { "name": "cukas" },
       "source": "./plugins/remembrall",
       "category": "productivity",
       "homepage": "https://github.com/cukas/remembrall"
     },
     {
       "name": "patrol",
-      "description": "ESLint for Claude Code — adaptive rule engine, investigation gate, workflow skills (/build-guard, /trace-fix, /review-gate, /diagnose). Zero tokens during normal coding.",
+      "description": "ESLint for Claude Code — adaptive rule engine, investigation gate, workflow skills",
       "version": "3.0.0",
-      "author": {
-        "name": "cukas"
-      },
+      "author": { "name": "cukas" },
       "source": "./plugins/patrol",
       "category": "development",
       "homepage": "https://github.com/cukas/patrol"
     },
     {
       "name": "claudes-ai-buddies",
-      "description": "Multi-AI confidence bids — pitch tasks to Claude, Codex & Gemini, compare confidence %, pick who builds it. Plus peer code reviews and delegation.",
-      "version": "1.0.0",
-      "author": {
-        "name": "cukas"
-      },
+      "description": "Dynamic multi-AI buddy system — forge, tribunal, ELO leaderboard, any CLI",
+      "version": "3.2.0",
+      "author": { "name": "cukas" },
       "source": "./plugins/claudes-ai-buddies",
       "category": "development",
-      "homepage": "https://github.com/cukas/claudes-ai-buddies",
-      "tags": [
-        "codex",
-        "gemini",
-        "openai",
-        "peer-ai",
-        "code-review",
-        "brainstorm",
-        "claude-code-plugin"
-      ]
+      "homepage": "https://github.com/cukas/claudes-ai-buddies"
+    },
+    {
+      "name": "evil-twin",
+      "description": "Your shadow self — adversarial challenge + independent blind verification. Claude-only.",
+      "version": "1.0.0",
+      "author": { "name": "cukas" },
+      "source": "./plugins/evil-twin",
+      "category": "development",
+      "homepage": "https://github.com/cukas/evil-twin"
+    },
+    {
+      "name": "hello-claude",
+      "description": "Inter-session communication — let multiple Claude instances know about each other and exchange messages",
+      "version": "0.1.0",
+      "author": { "name": "cukas" },
+      "source": "./plugins/hello-claude",
+      "category": "development",
+      "homepage": "https://github.com/cukas/hello-claude"
     }
   ]
 }
